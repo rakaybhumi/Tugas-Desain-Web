@@ -1,0 +1,220 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'open sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float:left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+    margin: 0px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid rgb(247, 152, 226);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.TOMBOL {
+    background: rgb(99, 15, 54);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.TOMBOL:hover {
+    background: palevioletred;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: rgb(99, 15, 54);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background:palevioletred;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.Tutor-List {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tutors-Profile {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Tutors-Profile img {
+    width: 80%;
+    border-radius: 100%;
+}
+
+.Tutors-Profile p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.courses-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapel {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.mapel img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    padding: 150px 0px 50px 0px;
+    margin-top: auto;
+}
+
+.footer {
+    width: 100%;
+    position: rrelative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    background-color: #eccad7;
+
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font weight: 800;
+    font-size: 20px;
+    margin bottom: 10px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper{
+        width: 90%;
+    }
+}
